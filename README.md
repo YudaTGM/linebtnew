@@ -12,7 +12,7 @@ follow these steps:
 $ cd /sdcard
 $ git clone https://github.com/YudaTGM/linebtnew.git
 ```
-install bot
+#install bot
 ```sh
 $ cd nybot
 $ pip install gtts rsa thrift requests pytz bs4
