@@ -8,8 +8,8 @@ import time, random, sys, json, codecs,  threading, glob, re, string, os, reques
 
 botStart = time.time()
 
-#client = LineClient()
-client = LineClient(authToken="Ep8N1xDxkPuKX5JwerOf.1xIRKYKgYZl1yKjTdP8yhW.m3SJ06mxBEQRGDDAPB5rXbYpAYQyNbEFWMdvWJhz/jM=")
+client = LineClient()
+#client = LineClient(authToken="TokenMu")
 client.log("Auth Token : " + str(client.authToken))
 channel = LineChannel(client)
 client.log("Channel Access Token : " + str(channel.channelAccessToken))
